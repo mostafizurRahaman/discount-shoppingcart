@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Discount Project</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <header class="mt-10">
+      <h1 class="text-2xl md:text-5xl text-center font-bold uppercase">Welcome To My <span class="text-violet-500 italic">Shopping Mall</span></h1>
+   </header>
+   <main>
+      <section class="mt-8">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 w-5/6 mx-auto">
+            <div class="p-8 bg-violet-600 rounded-xl">
+               <img src="img/shoes.png" alt="" class="w-48 h-auto block mx-auto">
+               <h2 class="text-xl md:text-2xl text-center uppercase text-white mb-5 ">Regular Price: $<span id="regularPrice" class="text-black font-bold">1200</span></h2>
+               <h3 class="text-xl md:text-2xl text-center uppercase text-white">After DisCountPrice: $<span id="discountPrice" class="text-black font-bold">1200</span></h3>
+            </div>
+            <div class="p-8 bg-pink-600 rounded-xl grid grid-cols-1 gap-5 justify-center items-center">
+               <h2 class="text-xl md:text-2xl text-center uppercase text-white">To get Discount use " <span class="text-yellow-500 font-extrabold">DOM</span>" input field</h2>
+               <input id="inputField" type="text" placeholder="Write here dom" class="text-base md:text-xl placeholder:uppercase w-3/5 px-3 py-3 rounded-lg border-none mx-auto">
+               <button id="discount-btn" class="text-center text-white font-bold bg-black rounded-border w-40 px-5 py-3 uppercase mx-auto rounded-xl">Use Cupon </button>
+            </div>
+
+         </div>
+      </section>
+      <section class="mt-8">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 w-5/6 mx-auto">
+            <div class="p-8 bg-violet-600 rounded-xl">
+               <img src="img/bag.png" alt="" class="w-48 h-auto block mx-auto">
+               <h2 class="text-xl md:text-2xl text-center uppercase text-white mb-5 ">Regular Price: $<span id="regularPrice1" class="text-black font-bold">1200</span></h2>
+               <h3 class="text-xl md:text-2xl text-center uppercase text-white">After DisCountPrice: $<span id="discountPrice1" class="text-black font-bold">1200</span></h3>
+            </div>
+            <div class="p-8 bg-pink-600 rounded-xl grid grid-cols-1 gap-5 justify-center items-center">
+               <h2 class="text-xl md:text-2xl text-center uppercase text-white">To get Discount use " <span class="text-yellow-500 font-extrabold">DOM</span>" input field</h2>
+               <input id="inputField1" type="text" placeholder="Write here dom" class="text-base md:text-xl placeholder:uppercase w-3/5 px-3 py-3 rounded-lg border-none mx-auto">
+               <button id="discount-btn1" class="text-center text-white font-bold bg-black rounded-border w-40 px-5 py-3 uppercase mx-auto rounded-xl">Use Cupon </button>
+            </div>
+
+         </div>
+      </section>
+   </main>
+<script src="js/discount.js"></script>
+</body>
+</html>
